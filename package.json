@@ -52,6 +52,7 @@
     "build": "nuxt-module-build prepare && nuxt-module-build build .",
     "stub": "nuxt-module-build build --stub .",
     "prepack": "pnpm build",
+    "prepare": "pnpm run build",
     "release": "bumpp --commit \"release: v%s\" --push --tag",
     "dev": "nuxt dev playground",
     "dev:prepare": "nuxt-module-build build --stub && nuxt-module-build prepare",
